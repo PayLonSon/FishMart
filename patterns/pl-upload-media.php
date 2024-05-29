@@ -9,6 +9,11 @@
 
 
 ?>
+<style>
+    #image-input {
+        display: none;
+    }
+</style>
 <form method="POST" enctype="multipart/form-data" id="upload-form" class="card" action="">
     <img src="" alt="Selected Image" id="selected-image" class="mouse_change" style="display: none;"><br>
     <textarea name="photo_info" id="post_text" style="height: 200px;" placeholder="請填寫
@@ -29,12 +34,12 @@
 <p class="d-none d-md-block ml-2">圖片上傳</p>
 </a><p><a class="d-flex align-items-center text-muted mr-4">        </a>
     </p>
-<p>可依下述方式撰寫，以利後續作業
-    釣獲時間：
-    釣獲地點：
-    交貨地點：
-    釣獲魚種：
-    釣獲數量：
+<p>可依下述方式撰寫，以利後續作業<br>
+    釣獲時間：<br>
+    釣獲地點：<br>
+    交貨地點：<br>
+    釣獲魚種：<br>
+    釣獲數量：<br>
     希望售價：</p>
 <p>    
     <button class="btn btn-primary btn-icon-text btn-edit-profile" id="uploadButton">
