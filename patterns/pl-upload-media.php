@@ -72,5 +72,5 @@ document.getElementById('uploadButton').addEventListener('click', function() {
   var formData = new FormData(); 
   formData.append('image', file); 
   alert('123');
-
+}); 
 </script>
