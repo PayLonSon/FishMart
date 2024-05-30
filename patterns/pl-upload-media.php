@@ -14,7 +14,7 @@
         display: none;
     }
 </style>
-<form method="POST" enctype="multipart/form-data" id="upload-form" class="card" action="">
+<form method="POST" enctype="multipart/form-data" id="upload-form" class="card" action="../ckeck_upload">
     <img src="" alt="Selected Image" id="selected-image" class="mouse_change" style="display: none;"><br>
     <textarea name="photo_info" id="post_text" style="height: 200px;" placeholder="請填寫
     釣獲時間：
@@ -42,7 +42,7 @@
     釣獲數量：<br>
     希望售價：</p>
 <p>    
-    <button class="btn btn-primary btn-icon-text btn-edit-profile" id="uploadButton">
+    <button  name="submit" class="btn btn-primary btn-icon-text btn-edit-profile" id="uploadButton">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit btn-icon-prepend">
     <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
     <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
@@ -52,8 +52,6 @@
 <p></p></label></form>
 <link rel="preload" href="https://code.jquery.com/jquery-1.10.2.min.js" as="script">
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" as="script">
-<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 <script type="text/javascript">
 document.getElementById('image-input').addEventListener('change', function() {
     const fileInput = document.getElementById('image-input');
@@ -73,9 +71,6 @@ document.getElementById('selected-image').addEventListener('click', function() {
     button2.click(); 
 }); 
 document.getElementById('uploadButton').addEventListener('click', function() { 
-  var file = input.files[0];
-  var formData = new FormData(); 
-  formData.append('image', file); 
-  alert('123');
+  
 }); 
 </script>
