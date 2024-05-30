@@ -14,7 +14,7 @@
         display: none;
     }
 </style>
-<form method="POST" enctype="multipart/form-data" id="upload-form" class="card" action="../ckeck_upload">
+<form method="POST" enctype="multipart/form-data" id="upload-form" class="card" action="/ckeck_upload">
     <img src="" alt="Selected Image" id="selected-image" class="mouse_change" style="display: none;"><br>
     <textarea name="photo_info" id="post_text" style="height: 200px;" placeholder="請填寫
     釣獲時間：

@@ -8,7 +8,7 @@
  */
 
 require_once(ABSPATH . 'wp-load.php');
-require_once(ABSPATH . 'plpublic.php');
+/*require_once(ABSPATH . 'plpublic.php');
 
 // WooCommerce API 地址
 $api_url = getWooCommerceUrl();
@@ -21,7 +21,7 @@ echo $api_url.'products' ;
     $consumer_secret = getWooConsumer_secret();
 
 
-
+*/
 if (isset($_POST['submit']) && !empty($_FILES['photo'])) {
     $uploaded_file = $_FILES['photo'];
     // 检查是否上传成功
@@ -53,5 +53,5 @@ if (isset($_POST['submit']) && !empty($_FILES['photo'])) {
 
 ?>
 <script type="text/javascript">
-    
+
 </script>
