@@ -127,9 +127,8 @@ if (isset($_POST['submit']) && !empty($_FILES['photo'])) {
         foreach ($product_data as $key => $value) {
             // 将键和值组合成列表项并输出
             if ($key != 'images'){
-
+                echo "<li><strong>$key:</strong> $value</li>\n";
             }
-            echo "<li><strong>$key:</strong> $value</li>\n";
         }
         // 结束条目列表
         echo "</ul>";
