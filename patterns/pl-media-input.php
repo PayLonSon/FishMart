@@ -17,7 +17,7 @@ require_once(ABSPATH . 'pl-public.php');
 function add_product_to_woocommerce($product_data) {
     // 构建 WooCommerce API 的 URL
     $endpoint = getWooCommerceUrl() . 'products' ;
-    echo $endpoint ;
+    //echo $endpoint ;
 
 
     // WooCommerce REST API 地址和凭证
@@ -126,6 +126,9 @@ if (isset($_POST['submit']) && !empty($_FILES['photo'])) {
         // 遍历 $product_data 数组
         foreach ($product_data as $key => $value) {
             // 将键和值组合成列表项并输出
+            if ($key != 'images'){
+
+            }
             echo "<li><strong>$key:</strong> $value</li>\n";
         }
         // 结束条目列表
