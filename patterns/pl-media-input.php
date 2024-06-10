@@ -44,7 +44,7 @@ function add_product_to_woocommerce($product_data) {
         return 'Error: ' . curl_error($ch);
     } else {
         $product = json_decode($response, true);
-        print json_encode($product);
+        //print json_encode($product);
         return $product['id']; // 返回创建的商品的 ID
     }
 
@@ -71,7 +71,7 @@ if (isset($_POST['submit']) && !empty($_FILES['photo'])) {
         $file_url = $upload_dir['url'] . '/' . $file_name;
 
         // 输出上传图像的 <img> 标签
-        echo '<img src="' . esc_url($file_url) . '" alt="Uploaded Image">';
+        echo '<img style="height: 200px;margin-left: auto; margin-right: auto;" src="' . esc_url($file_url) . '" alt="Uploaded Image">';
         // 调用函数并添加商品
             if (isset($_POST["photo_info"])) {
             // 获取名为 "photo_info" 的表单字段的值
@@ -96,8 +96,8 @@ if (isset($_POST['submit']) && !empty($_FILES['photo'])) {
                 $catch_quantity =(is_numeric($catch_quantity)) ? $catch_quantity : 1;
 
                 preg_match("/希望售價：(.*?)\n/", $photo_info, $matches);
-                $desired_price = isset($matches[1]) ? $matches[1] : 0;
-                $desired_price =(is_numeric($desired_price)) ? $catch_quantity : '999';
+                $desired_price = isset($matches[1]) ? $matches[1] : '99.00';
+                
             }
         $product_data = [
             'name' => $catch_species, // 商品名称

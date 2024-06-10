@@ -15,15 +15,15 @@
     }
 </style>
 <form method="POST" enctype="multipart/form-data" id="upload-form" class="card" action="ckeck_upload">
-    <img src="" alt="Selected Image" id="selected-image" class="mouse_change" style="display: none;"><br>
-    <textarea name="photo_info" id="post_text" style="height: 200px;" placeholder="請填寫
+    <img src="" alt="Selected Image" id="selected-image" class="mouse_change" style="display: none;height: 200px;margin-left: auto; margin-right: auto;"><br>
+    <textarea name="photo_info" id="post_text" style="height: 200px; width: 100%;" placeholder="請填寫
     釣獲時間：
     釣獲地點：
     交貨地點：
     釣獲魚種：
     釣獲數量：
     希望售價："></textarea>
-    <input type="file" name="photo" id="image-input" accept="image/*">
+    <input type="file" name="photo" id="image-input" accept="image/*" >
 <label for="image-input" id="image-label" class="mouse_change">
         <a class="d-flex align-items-center text-muted mr-4">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-image mr-1 icon-md"></svg>
