@@ -108,7 +108,7 @@ if (isset($_POST['submit']) && !empty($_FILES['photo'])) {
             'short_description' => $photo_info,
             'images' => [
                 [
-                    //'src' => $file_url, // 商品图片 URL
+                    'src' => $file_url, // 商品图片 URL
                 ],
             ],
             'status' => 'draft', // 将商品状态设置为待审核
