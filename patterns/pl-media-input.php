@@ -70,8 +70,7 @@ if (isset($_POST['submit']) && !empty($_FILES['photo'])) {
         // 获取上传文件的 URL
         $file_url = $upload_dir['url'] . '/' . $file_name;
 
-        // 输出上传图像的 <img> 标签
-        echo '<img style="height: 200px;margin-left: auto; margin-right: auto;" src="' . esc_url($file_url) . '" alt="Uploaded Image">';
+        
         // 调用函数并添加商品
             if (isset($_POST["photo_info"])) {
             // 获取名为 "photo_info" 的表单字段的值
@@ -115,14 +114,16 @@ if (isset($_POST['submit']) && !empty($_FILES['photo'])) {
             // 其他商品属性，如 'sku', 'stock_quantity', 'categories', 'tags' 等
         ];
         $product_id = add_product_to_woocommerce($product_data);
+        echo "<ul>\n";
         if ($product_id) {
-            echo 'Product added successfully. Product ID: ' . $product_id;
+            echo '<li>Product added successfully. Product ID: ' . $product_id.'</li>';
         } else {
-            echo 'Failed to add product.';
+            echo '<li>Failed to add product.</li>';
         }
         //echo json_encode($product_data);
         // 开始条目列表
-        echo "<ul>\n";
+        // 输出上传图像的 <img> 标签
+        echo '<li><img style="height: 200px;margin-left: auto; margin-right: auto;" src="' . esc_url($file_url) . '" alt="Uploaded Image"></li>';
         // 遍历 $product_data 数组
         foreach ($product_data as $key => $value) {
             // 将键和值组合成列表项并输出
