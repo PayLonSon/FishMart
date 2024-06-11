@@ -44,7 +44,7 @@ function add_product_to_woocommerce($product_data) {
         return 'Error: ' . curl_error($ch);
     } else {
         $product = json_decode($response, true);
-        //print json_encode($product);
+        print json_encode($product);
         return $product['id']; // 返回创建的商品的 ID
     }
 
