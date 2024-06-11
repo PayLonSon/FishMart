@@ -114,6 +114,7 @@ if (isset($_POST['submit']) && !empty($_FILES['photo'])) {
             // 其他商品属性，如 'sku', 'stock_quantity', 'categories', 'tags' 等
         ];
         $product_id = add_product_to_woocommerce($product_data);
+        update_post_meta( $product_id, '_stock', $catch_quantity );
         echo "<ul>\n";
         if ($product_id) {
             echo '<li>Product added successfully. Product ID: ' . $product_id.'</li>';
