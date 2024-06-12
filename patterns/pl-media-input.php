@@ -18,7 +18,6 @@ function add_product_to_woocommerce($product_data) {
     // 构建 WooCommerce API 的 URL
     $endpoint = getWooCommerceUrl() . 'products' ;
     //echo $endpoint ;
-    print $endpoint;
 
     // WooCommerce REST API 地址和凭证
     $consumer_key = getWooConsumer_key();
