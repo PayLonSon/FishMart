@@ -1,0 +1,72 @@
+2024-06-30T03:03:40+00:00 INFO [request][order_id:216] http request url : https://api-pay.line.me/v3/payments/request
+2024-06-30T03:03:40+00:00 INFO [request][order_id:216] execute request_args: Array
+(
+    [httpversion] => 1.1
+    [timeout] => 20
+    [headers] => Array
+        (
+            [content-type] => application/json; charset=UTF-8
+            [X-LINE-ChannelId] => 2005729424
+            [X-LINE-Authorization-Nonce] => 202406300303403183
+            [X-LINE-Authorization] => +ThEMXj8BP3pqyyxFTXhpY75HDtob0gZakDAa4LkrJU=
+        )
+
+    [method] => POST
+    [body] => {"orderId":216,"amount":"2300","currency":"TWD","packages":[{"id":"WC-ITEMS||216","name":"WC_ITEMS","amount":"2300","products":[{"id":209,"name":"\u8d64\u5b97\u3001\u77f3\u72d7\u3001\u99ac\u982d\u3001\u82b1\u98db","quantity":1,"price":"2300","imageUrl":"https:\/\/www.fishmarts.com\/wp-content\/uploads\/2024\/06\/004-1.jpg"}]}],"redirectUrls":{"confirmUrl":"https:\/\/www.fishmarts.com\/wc-api\/linepay_payment?request_type=confirm&order_id=216","confirmUrlType":"CLIENT","cancelUrl":"https:\/\/www.fishmarts.com\/wc-api\/linepay_payment?request_type=cancel&order_id=216"},"options":{"payment":{"payType":"NORMAL","capture":true},"extra":{"branchName":""}}}
+)
+2024-06-30T03:03:40+00:00 INFO [execute] http response code: 200, response body: stdClass Object
+(
+    [returnCode] => 0000
+    [returnMessage] => Success.
+    [info] => stdClass Object
+        (
+            [paymentUrl] => stdClass Object
+                (
+                    [web] => https://web-pay.line.me/web/payment/wait?transactionReserveId=Q1hveWdralFreEU0TktrSDBIeUtxRWIybFh1Tzc0Qm9laTVJdFNjV3dlaUhNbjhpSWRHQ2RMVDRpUjV3TGZLaQ
+                    [app] => line://pay/payment/Q1hveWdralFreEU0TktrSDBIeUtxRWIybFh1Tzc0Qm9laTVJdFNjV3dlaUhNbjhpSWRHQ2RMVDRpUjV3TGZLaQ
+                )
+
+            [transactionId] => 2024063020071019910
+            [paymentAccessToken] => 349855490885
+        )
+
+)
+2024-06-30T03:03:40+00:00 INFO [request] execute result: stdClass Object
+(
+    [returnCode] => 0000
+    [returnMessage] => Success.
+    [info] => stdClass Object
+        (
+            [paymentUrl] => stdClass Object
+                (
+                    [web] => https://web-pay.line.me/web/payment/wait?transactionReserveId=Q1hveWdralFreEU0TktrSDBIeUtxRWIybFh1Tzc0Qm9laTVJdFNjV3dlaUhNbjhpSWRHQ2RMVDRpUjV3TGZLaQ
+                    [app] => line://pay/payment/Q1hveWdralFreEU0TktrSDBIeUtxRWIybFh1Tzc0Qm9laTVJdFNjV3dlaUhNbjhpSWRHQ2RMVDRpUjV3TGZLaQ
+                )
+
+            [transactionId] => 2024063020071019910
+            [paymentAccessToken] => 349855490885
+        )
+
+)
+2024-06-30T03:03:40+00:00 INFO [check][order_id:216] http request url : https://api-pay.line.me/v3/payments/requests/2024063020071019910/check
+2024-06-30T03:03:40+00:00 INFO [check][order_id:216] execute request_args: Array
+(
+    [httpversion] => 1.1
+    [timeout] => 20
+    [headers] => Array
+        (
+            [content-type] => application/json; charset=UTF-8
+            [X-LINE-ChannelId] => 2005729424
+            [X-LINE-Authorization-Nonce] => 202406300303404217
+            [X-LINE-Authorization] => dPEBwGQh/kWz8nfP8WVise5G7XZSSxoS2pPpaT9Y4+A=
+        )
+
+    [method] => GET
+)
+2024-06-30T03:03:40+00:00 INFO [execute] http response code: 200, response body: stdClass Object
+(
+    [returnCode] => 0000
+    [returnMessage] => reserved transaction.
+)
+2024-06-30T03:03:40+00:00 INFO [check][order_id:216] Check payment status after requested, return code:0000, return message:reserved transaction.
+2024-06-30T03:04:08+00:00 INFO [order_id: 216][reserved_transaction_id: 2024063020071019910] - payment cancel

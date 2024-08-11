@@ -1,0 +1,253 @@
+2024-06-29T00:27:55+00:00 INFO [request][order_id:210] http request url : https://api-pay.line.me/v3/payments/request
+2024-06-29T00:27:55+00:00 INFO [request][order_id:210] execute request_args: Array
+(
+    [httpversion] => 1.1
+    [timeout] => 20
+    [headers] => Array
+        (
+            [content-type] => application/json; charset=UTF-8
+            [X-LINE-ChannelId] => 2005678151
+            [X-LINE-Authorization-Nonce] => 202406290027557302
+            [X-LINE-Authorization] => DltT9DApSLgSk6JfKe650ldUrdbWpIs2hZpnF11X0P4=
+        )
+
+    [method] => POST
+    [body] => {"orderId":210,"amount":"4600","currency":"TWD","packages":[{"id":"WC-ITEMS||210","name":"WC_ITEMS","amount":"4600","products":[{"id":209,"name":"\u8d64\u5b97\u3001\u77f3\u72d7\u3001\u99ac\u982d\u3001\u82b1\u98db","quantity":1,"price":"4600","imageUrl":"https:\/\/www.fishmarts.com\/wp-content\/uploads\/2024\/06\/004-1.jpg"}]}],"redirectUrls":{"confirmUrl":"https:\/\/www.fishmarts.com\/wc-api\/linepay_payment?request_type=confirm&order_id=210","confirmUrlType":"CLIENT","cancelUrl":"https:\/\/www.fishmarts.com\/wc-api\/linepay_payment?request_type=cancel&order_id=210"},"options":{"payment":{"payType":"NORMAL","capture":true},"extra":{"branchName":""}}}
+)
+2024-06-29T00:27:55+00:00 INFO [execute] http response code: 200, response body: stdClass Object
+(
+    [returnCode] => 1104
+    [returnMessage] => Merchant not found.
+)
+2024-06-29T00:27:55+00:00 INFO [request] execute result: stdClass Object
+(
+    [returnCode] => 1104
+    [returnMessage] => Merchant not found.
+)
+2024-06-29T00:28:38+00:00 INFO [request][order_id:211] http request url : https://api-pay.line.me/v3/payments/request
+2024-06-29T00:28:38+00:00 INFO [request][order_id:211] execute request_args: Array
+(
+    [httpversion] => 1.1
+    [timeout] => 20
+    [headers] => Array
+        (
+            [content-type] => application/json; charset=UTF-8
+            [X-LINE-ChannelId] => 2005678151
+            [X-LINE-Authorization-Nonce] => 202406290028381536
+            [X-LINE-Authorization] => 4iTjfYsFwxUzUcmXZKBu9/vhQ5H554bi3fqIKHjLO6M=
+        )
+
+    [method] => POST
+    [body] => {"orderId":211,"amount":"2100","currency":"TWD","packages":[{"id":"WC-ITEMS||211","name":"WC_ITEMS","amount":"2100","products":[{"id":203,"name":"\u91d1\u9be7\u3001\u71d5\u9b5a\u3001\u77f3\u9c78\u3001\u7d05\u9b5a\u3001\u73ed\u982d\u3001\u9ed1\u683c\u3001\u9f8d\u5360","quantity":1,"price":"2100","imageUrl":"https:\/\/www.fishmarts.com\/wp-content\/uploads\/2024\/06\/003-1.jpg"}]}],"redirectUrls":{"confirmUrl":"https:\/\/www.fishmarts.com\/wc-api\/linepay_payment?request_type=confirm&order_id=211","confirmUrlType":"CLIENT","cancelUrl":"https:\/\/www.fishmarts.com\/wc-api\/linepay_payment?request_type=cancel&order_id=211"},"options":{"payment":{"payType":"NORMAL","capture":true},"extra":{"branchName":""}}}
+)
+2024-06-29T00:28:38+00:00 INFO [execute] http response code: 200, response body: stdClass Object
+(
+    [returnCode] => 1104
+    [returnMessage] => Merchant not found.
+)
+2024-06-29T00:28:38+00:00 INFO [request] execute result: stdClass Object
+(
+    [returnCode] => 1104
+    [returnMessage] => Merchant not found.
+)
+2024-06-29T00:31:47+00:00 INFO [request][order_id:212] http request url : https://api-pay.line.me/v3/payments/request
+2024-06-29T00:31:47+00:00 INFO [request][order_id:212] execute request_args: Array
+(
+    [httpversion] => 1.1
+    [timeout] => 20
+    [headers] => Array
+        (
+            [content-type] => application/json; charset=UTF-8
+            [X-LINE-ChannelId] => 2005678151
+            [X-LINE-Authorization-Nonce] => 202406290031476573
+            [X-LINE-Authorization] => akzwchxAcMxCacuNSjklt2LNWp2IX2M9YgFo5AnZbI0=
+        )
+
+    [method] => POST
+    [body] => {"orderId":212,"amount":"400","currency":"TWD","packages":[{"id":"WC-ITEMS||212","name":"WC_ITEMS","amount":"400","products":[{"id":200,"name":"\u900f\u62bd(400\/\u65a4)","quantity":1,"price":"400","imageUrl":"https:\/\/www.fishmarts.com\/wp-content\/uploads\/2024\/06\/002-1.jpg"}]}],"redirectUrls":{"confirmUrl":"https:\/\/www.fishmarts.com\/wc-api\/linepay_payment?request_type=confirm&order_id=212","confirmUrlType":"CLIENT","cancelUrl":"https:\/\/www.fishmarts.com\/wc-api\/linepay_payment?request_type=cancel&order_id=212"},"options":{"payment":{"payType":"NORMAL","capture":true},"extra":{"branchName":""}}}
+)
+2024-06-29T00:31:47+00:00 INFO [execute] http response code: 200, response body: stdClass Object
+(
+    [returnCode] => 1104
+    [returnMessage] => Merchant not found.
+)
+2024-06-29T00:31:47+00:00 INFO [request] execute result: stdClass Object
+(
+    [returnCode] => 1104
+    [returnMessage] => Merchant not found.
+)
+2024-06-29T00:35:13+00:00 INFO [request][order_id:213] http request url : https://api-pay.line.me/v3/payments/request
+2024-06-29T00:35:13+00:00 INFO [request][order_id:213] execute request_args: Array
+(
+    [httpversion] => 1.1
+    [timeout] => 20
+    [headers] => Array
+        (
+            [content-type] => application/json; charset=UTF-8
+            [X-LINE-ChannelId] => 2005678151
+            [X-LINE-Authorization-Nonce] => 20240629003513925
+            [X-LINE-Authorization] => Z1RDAatchijOSAl8Sg2zZtgwfa1OBrEOx+0FfNHBbdg=
+        )
+
+    [method] => POST
+    [body] => {"orderId":213,"amount":"300","currency":"TWD","packages":[{"id":"WC-ITEMS||213","name":"WC_ITEMS","amount":"300","products":[{"id":197,"name":"\u900f\u62bd(300\/\u65a4)","quantity":1,"price":"300","imageUrl":"https:\/\/www.fishmarts.com\/wp-content\/uploads\/2024\/06\/001-1.jpg"}]}],"redirectUrls":{"confirmUrl":"https:\/\/www.fishmarts.com\/wc-api\/linepay_payment?request_type=confirm&order_id=213","confirmUrlType":"CLIENT","cancelUrl":"https:\/\/www.fishmarts.com\/wc-api\/linepay_payment?request_type=cancel&order_id=213"},"options":{"payment":{"payType":"NORMAL","capture":true},"extra":{"branchName":""}}}
+)
+2024-06-29T00:35:13+00:00 INFO [execute] http response code: 200, response body: stdClass Object
+(
+    [returnCode] => 1104
+    [returnMessage] => Merchant not found.
+)
+2024-06-29T00:35:13+00:00 INFO [request] execute result: stdClass Object
+(
+    [returnCode] => 1104
+    [returnMessage] => Merchant not found.
+)
+2024-06-29T00:35:52+00:00 INFO [request][order_id:213] http request url : https://api-pay.line.me/v3/payments/request
+2024-06-29T00:35:52+00:00 INFO [request][order_id:213] execute request_args: Array
+(
+    [httpversion] => 1.1
+    [timeout] => 20
+    [headers] => Array
+        (
+            [content-type] => application/json; charset=UTF-8
+            [X-LINE-ChannelId] => 2005678151
+            [X-LINE-Authorization-Nonce] => 202406290035523021
+            [X-LINE-Authorization] => LDyJ5Geya5zIPbwisd3QiTumYICWWuoyl6PJca4wpMU=
+        )
+
+    [method] => POST
+    [body] => {"orderId":213,"amount":"300","currency":"TWD","packages":[{"id":"WC-ITEMS||213","name":"WC_ITEMS","amount":"300","products":[{"id":197,"name":"\u900f\u62bd(300\/\u65a4)","quantity":1,"price":"300","imageUrl":"https:\/\/www.fishmarts.com\/wp-content\/uploads\/2024\/06\/001-1.jpg"}]}],"redirectUrls":{"confirmUrl":"https:\/\/www.fishmarts.com\/wc-api\/linepay_payment?request_type=confirm&order_id=213","confirmUrlType":"CLIENT","cancelUrl":"https:\/\/www.fishmarts.com\/wc-api\/linepay_payment?request_type=cancel&order_id=213"},"options":{"payment":{"payType":"NORMAL","capture":true},"extra":{"branchName":""}}}
+)
+2024-06-29T00:35:52+00:00 INFO [execute] http response code: 200, response body: stdClass Object
+(
+    [returnCode] => 1104
+    [returnMessage] => Merchant not found.
+)
+2024-06-29T00:35:52+00:00 INFO [request] execute result: stdClass Object
+(
+    [returnCode] => 1104
+    [returnMessage] => Merchant not found.
+)
+2024-06-29T00:41:07+00:00 INFO [request][order_id:213] http request url : https://api-pay.line.me/v3/payments/request
+2024-06-29T00:41:07+00:00 INFO [request][order_id:213] execute request_args: Array
+(
+    [httpversion] => 1.1
+    [timeout] => 20
+    [headers] => Array
+        (
+            [content-type] => application/json; charset=UTF-8
+            [X-LINE-ChannelId] => 2005678151
+            [X-LINE-Authorization-Nonce] => 202406290041079122
+            [X-LINE-Authorization] => 9Z2DIZVZww88IyHrWiHEYRN5ubj6qo3fuIrpd627YRM=
+        )
+
+    [method] => POST
+    [body] => {"orderId":213,"amount":"300","currency":"TWD","packages":[{"id":"WC-ITEMS||213","name":"WC_ITEMS","amount":"300","products":[{"id":197,"name":"\u900f\u62bd(300\/\u65a4)","quantity":1,"price":"300","imageUrl":"https:\/\/www.fishmarts.com\/wp-content\/uploads\/2024\/06\/001-1.jpg"}]}],"redirectUrls":{"confirmUrl":"https:\/\/www.fishmarts.com\/wc-api\/linepay_payment?request_type=confirm&order_id=213","confirmUrlType":"CLIENT","cancelUrl":"https:\/\/www.fishmarts.com\/wc-api\/linepay_payment?request_type=cancel&order_id=213"},"options":{"payment":{"payType":"NORMAL","capture":true},"extra":{"branchName":""}}}
+)
+2024-06-29T00:41:07+00:00 INFO [execute] http response code: 200, response body: stdClass Object
+(
+    [returnCode] => 1104
+    [returnMessage] => Merchant not found.
+)
+2024-06-29T00:41:07+00:00 INFO [request] execute result: stdClass Object
+(
+    [returnCode] => 1104
+    [returnMessage] => Merchant not found.
+)
+2024-06-29T00:41:41+00:00 INFO [request][order_id:213] http request url : https://api-pay.line.me/v3/payments/request
+2024-06-29T00:41:41+00:00 INFO [request][order_id:213] execute request_args: Array
+(
+    [httpversion] => 1.1
+    [timeout] => 20
+    [headers] => Array
+        (
+            [content-type] => application/json; charset=UTF-8
+            [X-LINE-ChannelId] => 2005678151
+            [X-LINE-Authorization-Nonce] => 202406290041416968
+            [X-LINE-Authorization] => pjwJ3D/ZFKQryzJZHIvoXqFuR0Kd/4BIMyrsgx0MaTo=
+        )
+
+    [method] => POST
+    [body] => {"orderId":213,"amount":"300","currency":"TWD","packages":[{"id":"WC-ITEMS||213","name":"WC_ITEMS","amount":"300","products":[{"id":197,"name":"\u900f\u62bd(300\/\u65a4)","quantity":1,"price":"300","imageUrl":"https:\/\/www.fishmarts.com\/wp-content\/uploads\/2024\/06\/001-1.jpg"}]}],"redirectUrls":{"confirmUrl":"https:\/\/www.fishmarts.com\/wc-api\/linepay_payment?request_type=confirm&order_id=213","confirmUrlType":"CLIENT","cancelUrl":"https:\/\/www.fishmarts.com\/wc-api\/linepay_payment?request_type=cancel&order_id=213"},"options":{"payment":{"payType":"NORMAL","capture":true},"extra":{"branchName":""}}}
+)
+2024-06-29T00:41:41+00:00 INFO [execute] http response code: 200, response body: stdClass Object
+(
+    [returnCode] => 1104
+    [returnMessage] => Merchant not found.
+)
+2024-06-29T00:41:41+00:00 INFO [request] execute result: stdClass Object
+(
+    [returnCode] => 1104
+    [returnMessage] => Merchant not found.
+)
+2024-06-29T00:50:49+00:00 INFO [request][order_id:213] http request url : https://api-pay.line.me/v3/payments/request
+2024-06-29T00:50:49+00:00 INFO [request][order_id:213] execute request_args: Array
+(
+    [httpversion] => 1.1
+    [timeout] => 20
+    [headers] => Array
+        (
+            [content-type] => application/json; charset=UTF-8
+            [X-LINE-ChannelId] => 2005729424
+            [X-LINE-Authorization-Nonce] => 202406290050494655
+            [X-LINE-Authorization] => rVrRbUqyqO372WjNMbpY6rLLdM8CYv7CyahDIlCtWcY=
+        )
+
+    [method] => POST
+    [body] => {"orderId":213,"amount":"300","currency":"TWD","packages":[{"id":"WC-ITEMS||213","name":"WC_ITEMS","amount":"300","products":[{"id":197,"name":"\u900f\u62bd(300\/\u65a4)","quantity":1,"price":"300","imageUrl":"https:\/\/www.fishmarts.com\/wp-content\/uploads\/2024\/06\/001-1.jpg"}]}],"redirectUrls":{"confirmUrl":"https:\/\/www.fishmarts.com\/wc-api\/linepay_payment?request_type=confirm&order_id=213","confirmUrlType":"CLIENT","cancelUrl":"https:\/\/www.fishmarts.com\/wc-api\/linepay_payment?request_type=cancel&order_id=213"},"options":{"payment":{"payType":"NORMAL","capture":true},"extra":{"branchName":""}}}
+)
+2024-06-29T00:50:49+00:00 INFO [execute] http response code: 200, response body: stdClass Object
+(
+    [returnCode] => 0000
+    [returnMessage] => Success.
+    [info] => stdClass Object
+        (
+            [paymentUrl] => stdClass Object
+                (
+                    [web] => https://web-pay.line.me/web/payment/wait?transactionReserveId=WU9WajBBQXJINE1BaGRPdUFHNHRCblJCbVR4Sy9MblVrK2J1QmRyUkJXVWQzdUhjR2g5SFRUci9ZOVVPNFVTUg
+                    [app] => line://pay/payment/WU9WajBBQXJINE1BaGRPdUFHNHRCblJCbVR4Sy9MblVrK2J1QmRyUkJXVWQzdUhjR2g5SFRUci9ZOVVPNFVTUg
+                )
+
+            [transactionId] => 2024062919437418910
+            [paymentAccessToken] => 240271162168
+        )
+
+)
+2024-06-29T00:50:49+00:00 INFO [request] execute result: stdClass Object
+(
+    [returnCode] => 0000
+    [returnMessage] => Success.
+    [info] => stdClass Object
+        (
+            [paymentUrl] => stdClass Object
+                (
+                    [web] => https://web-pay.line.me/web/payment/wait?transactionReserveId=WU9WajBBQXJINE1BaGRPdUFHNHRCblJCbVR4Sy9MblVrK2J1QmRyUkJXVWQzdUhjR2g5SFRUci9ZOVVPNFVTUg
+                    [app] => line://pay/payment/WU9WajBBQXJINE1BaGRPdUFHNHRCblJCbVR4Sy9MblVrK2J1QmRyUkJXVWQzdUhjR2g5SFRUci9ZOVVPNFVTUg
+                )
+
+            [transactionId] => 2024062919437418910
+            [paymentAccessToken] => 240271162168
+        )
+
+)
+2024-06-29T00:50:49+00:00 INFO [check][order_id:213] http request url : https://api-pay.line.me/v3/payments/requests/2024062919437418910/check
+2024-06-29T00:50:49+00:00 INFO [check][order_id:213] execute request_args: Array
+(
+    [httpversion] => 1.1
+    [timeout] => 20
+    [headers] => Array
+        (
+            [content-type] => application/json; charset=UTF-8
+            [X-LINE-ChannelId] => 2005729424
+            [X-LINE-Authorization-Nonce] => 202406290050495559
+            [X-LINE-Authorization] => MesvYdslHYOyBy4J1Q6u/AD+3181p7tCUAdAromqNY4=
+        )
+
+    [method] => GET
+)
+2024-06-29T00:50:49+00:00 INFO [execute] http response code: 200, response body: stdClass Object
+(
+    [returnCode] => 0000
+    [returnMessage] => reserved transaction.
+)
+2024-06-29T00:50:49+00:00 INFO [check][order_id:213] Check payment status after requested, return code:0000, return message:reserved transaction.
