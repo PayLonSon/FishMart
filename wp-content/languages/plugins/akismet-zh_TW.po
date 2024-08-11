@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-07-10 22:32:17+0000\n"
+"PO-Revision-Date: 2024-07-22 19:38:21+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,13 +11,17 @@ msgstr ""
 "Language: zh_TW\n"
 "Project-Id-Version: Plugins - Akismet Anti-spam: Spam Protection - Stable (latest release)\n"
 
+#: views/setup.php:3
+msgid "Choose an Akismet plan"
+msgstr "選取 Akismet 方案"
+
 #: class.akismet-admin.php:690
 msgid "This comment was not sent to Akismet when it was submitted because it was caught by the comment disallowed list."
-msgstr "由於這則留言遭留言封鎖清單攔截，因此並未於提交時傳送至 Akismet。"
+msgstr "由於這則留言遭到留言封鎖清單攔截，因此並未於提交時傳送至 Akismet。"
 
 #: class.akismet-admin.php:687
 msgid "This comment was not sent to Akismet when it was submitted because it was caught by something else."
-msgstr "由於這則留言遭其他項目攔截，因此並未於提交時傳送至 Akismet。"
+msgstr "由於這則留言遭到其他項目攔截，因此並未於提交時傳送至 Akismet。"
 
 #. translators: the placeholder is the URL to the Akismet pricing page.
 #: views/notice.php:164
@@ -377,7 +381,7 @@ msgstr[0] "已判定 %s 則留言為垃圾留言。"
 
 #: class.akismet-admin.php:1208
 msgid "No comments were caught as spam."
-msgstr "沒有留言遭判定為垃圾留言。"
+msgstr "沒有遭到判定為垃圾留言的留言。"
 
 #: class.akismet-admin.php:1204
 msgid "Akismet checked %s comment."
